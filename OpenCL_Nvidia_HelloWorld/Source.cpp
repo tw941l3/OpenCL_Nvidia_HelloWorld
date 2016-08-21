@@ -47,7 +47,7 @@ int main()
 
 		clGetDeviceInfo(devices[d], CL_DEVICE_MAX_COMPUTE_UNITS, sizeof(cl_uint), &entries, NULL);
 		printf("\tNumber of parallel compute cores:\t%d\n", entries);
-		printf("Hello world\n");
 	}
+	printf("Hello world\n");
 	system("pause");
 }
